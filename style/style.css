@@ -1,0 +1,86 @@
+html
+{
+    width: 100%;
+    height: 100%;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (min-width: 768px)
+{
+    div#container
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+       position: absolute;
+
+    }
+div#painel-isquerda
+{
+width: 25%;
+height: 100vh;
+background-image: url("../img/2.jpg");
+background-repeat: no-repeat;
+background-size: 50% 100%;
+background-attachment: fixed;
+background-color: cadetblue;
+box-shadow: 0 0 50px #000000;
+z-index: 20;
+}
+
+div#painel-direita
+{
+    width: 75%;
+    height: 100vh;
+    background-color: antiquewhite;
+background-image: none;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 280px;
+    height: 400px;
+    background-color: #180d0d;
+    border-radius: 20px;
+    border-left: 4px groove rgb(133, 133, 133);
+    border-top: 4px groove rgb(133, 133, 133);
+    margin: 20px;
+    color: #FFF;
+    box-shadow: 10px 5px 15px #3e3e3e;
+    transform:translateY(20px);
+    opacity: 0.9;
+    transition: 0.5s
+}
+.card:hover
+{
+    transform:translateY(0px);
+    opacity: 1;
+    transition: 0.5s
+}
+
+.card-description
+{
+    text-align: center;
+    
+}
+.card-image
+{
+    border-radius: 20px;
+    width: 200px;
+}
+
+
+
+}
