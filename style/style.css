@@ -9,6 +9,7 @@ html
     margin: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition:all ease-in-out 1s;
 }
 body
 {
@@ -16,7 +17,7 @@ body
 }
 
 
-@media screen and (min-width: 768px)
+@media screen and (max-width: 1366px)
 {
     div#container
     {
@@ -24,6 +25,7 @@ body
         height: 100%;
         display: flex;
        position: absolute;
+       box-shadow: inset 0 0 20px black;
 
     }
 
@@ -36,11 +38,14 @@ div#painel
     background-color: #191919;
     display: flex;
     position: relative;
-    overflow-x: scroll;
+    overflow-x: hidden;
     padding: 0;
     justify-content: space-evenly;
     gap: 50px;
+    scroll-behavior: smooth;
+    box-shadow: inset 0px 20px 20px black;
 }
+
 
 .card
 {
@@ -87,11 +92,28 @@ svg
 }
 #next-image-button
 {
-    width: 20px;
+    width: 40px;
 }
 button.slide-buttons
 {
-    width: 100px;
-    height: 50px;
+     width: 100px;
+    height: 100px;
+    background-color: transparent;
+    color: white;
 }
+button#next
+{
+    position: fixed;
+    top: 30%;
+    left: 93%;
+}
+
+button#previous
+{
+    position: fixed;
+    top: 30%;
+    left: 0%;
+}
+
+
 }
