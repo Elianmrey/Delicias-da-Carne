@@ -22,6 +22,9 @@ document.getElementById("previous").addEventListener("click",  ()=>{
 
 divPainel.addEventListener("wheel", function (e){
 
+    // Evitando comportamento default do Wheel do Mouse
+e.preventDefault();
+
   if(e.wheelDelta < 0)
 {
     // console.log("Rolar para Abaixo");
