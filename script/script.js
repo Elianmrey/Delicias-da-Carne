@@ -24,11 +24,11 @@ divPainel.addEventListener("wheel", function (e){
 
   if(e.wheelDelta < 0)
 {
-    console.log("Rolar para Abaixo");
+    // console.log("Rolar para Abaixo");
     divPainel.scrollLeft += 300;
 } else
 {
-    console.log("Rolar para Cima");
+    // console.log("Rolar para Cima");
     divPainel.scrollLeft -= 300; 
 }
 });
