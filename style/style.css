@@ -19,6 +19,54 @@ body
 
 @media screen and (max-width: 1366px)
 {
+/*===========================Header================================== */
+div#header-div
+{ 
+    border: solid 1px white;
+    display: flex;
+    gap: 20px;
+    height: 130px;
+    background-color: #310202;
+    box-shadow: inset 0px  -20px 50px 30px  #151515;
+    align-items: center;
+    justify-content: right;
+}
+div#container-menu
+{
+    border: solid 1px white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    width: 720px;
+}
+ul#menu li
+{
+   display: inline-block;
+   list-style: none;
+   padding: 15px;
+}
+ul#menu li a
+{
+   text-decoration: none;
+   color: White;
+   font-weight: 700;
+   font-size: 14pt;
+   padding: 1px;
+   border-radius: 15px;
+   
+}
+ul#menu li:hover
+{
+ background-color: #310202;
+ border-radius: 15px;
+ box-shadow: inset 0px  0px 10px   #ffffff;
+ cursor: pointer;
+}
+
+
+/*===========================//Header================================== */
+
+/*===========================Conteudo================================== */
     div#container
     {
         width: 100%;
