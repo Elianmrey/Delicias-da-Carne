@@ -22,7 +22,7 @@ body
 /*===========================Header================================== */
 div#header-div
 { 
-    border: solid 1px white;
+   
     display: flex;
     gap: 20px;
     height: 130px;
@@ -31,9 +31,21 @@ div#header-div
     align-items: center;
     justify-content: right;
 }
+div#logo-container
+{
+    width: 400px;
+    display:flex;
+    justify-content: left;
+    
+    
+}
+img#logo
+{
+    width: 100px;
+}
 div#container-menu
 {
-    border: solid 1px white;
+    
     display: flex;
     justify-content: space-evenly;
     flex-wrap: nowrap;
