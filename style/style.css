@@ -179,14 +179,14 @@ button.slide-buttons
 button#next
 {
     position: fixed;
-    top: 30%;
+    top: 50%;
     left: 93%;
 }
 
 button#previous
 {
     position: fixed;
-    top: 30%;
+    top: 50%;
     left: 0%;
 }
 div#infoCarnes
