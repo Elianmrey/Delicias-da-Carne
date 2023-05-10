@@ -43,14 +43,18 @@ div#logo-container
 {
     position: absolute;
     left: 1%;
-    width: 400px;
+    width: 500px;
     display:flex;
+    align-items: center;
+    gap: 30px;
     justify-content: left;
+     color: #BC360D;
 }
 
 img#logo
 {
-    width: 200px;
+    
+    width: 150px;
 }
 div#container-menu
 {
