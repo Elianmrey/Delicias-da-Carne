@@ -22,30 +22,38 @@ body
 /*===========================Header================================== */
 div#header-div
 { 
-   
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     display: flex;
     gap: 20px;
-    height: 130px;
+    height: 170px;
     background-color: #310202;
     box-shadow: inset 0px  -20px 50px 30px  #151515;
     align-items: center;
     justify-content: right;
 }
+#header-border
+{
+ height: 190px;
+ background-image: linear-gradient(-45deg, #ffee06, #b37a01, #ffef0a, #894203);
+
+}
+
 div#logo-container
 {
+    position: absolute;
+    left: 1%;
     width: 400px;
     display:flex;
     justify-content: left;
-    
-    
 }
+
 img#logo
 {
-    width: 100px;
+    width: 200px;
 }
 div#container-menu
 {
-    
     display: flex;
     justify-content: space-evenly;
     flex-wrap: nowrap;
@@ -76,22 +84,27 @@ ul#menu li:hover
 }
 
 
+
+
 /*===========================//Header================================== */
 
 /*===========================Conteudo================================== */
     div#container
     {
-        width: 100%;
+        margin: auto;
         height: 100%;
         display: flex;
-                                             
+
     }
 
 
 div#painel
 {
+    
+    
     margin-top: 50px;
-    width:100%;
+    margin-right: auto;
+    margin-left: auto;
     height: 375px;
     background-color: #310202;
     display: flex;
@@ -170,7 +183,7 @@ svg#btn-previous:hover
 }
 button.slide-buttons
 {
-     width: 100px;
+     width: 50px;
     height: 100px;
     background-color: transparent;
     color: white;
@@ -178,21 +191,25 @@ button.slide-buttons
 }
 button#next
 {
-    position: fixed;
+    position: absolute;
     top: 50%;
-    left: 93%;
+    right: 2%;
 }
 
 button#previous
 {
-    position: fixed;
+    position: absolute;
     top: 50%;
-    left: 0%;
+    left: 2%;
 }
 div#infoCarnes
 {
 color: white;
-
+width: 75%;
+margin: auto;
+display: flex;
+flex-direction: column;
+text-align: justify;
 }
 
 }
