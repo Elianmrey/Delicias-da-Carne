@@ -101,7 +101,7 @@ ul#menu li:hover
         height: 100%;
         width: 85%;
         display: flex;
-
+        scroll-behavior: smooth;
     }
 
 
@@ -248,5 +248,20 @@ div#footer-div
     height: 200px;
     background-color: #310202;
     box-shadow: inset 0px  -20px 50px 30px  #151515;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
     }
+#footer-menu li
+{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+    font-size: 15pt;
+
+}
+
+
 }
