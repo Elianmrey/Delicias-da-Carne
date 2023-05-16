@@ -264,15 +264,38 @@ button.slide-buttons
 div.infoCarnes
 {
 color: white;
-width: 75%;
+width: 45%;
 margin-left: auto;
-margin-right: auto;
+margin-right: 10%;
 margin-top: 50px;
 display: flex;
 flex-direction: column;
 text-align: justify;
+line-height: 35px;
+}
+div.infoEmpresa
+{
+    color: white;
+    width: 45%;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    line-height: 35px;
+}
+h2.paragraph-titles
+{
+    margin-top: 150px;
 }
 
+img#we-are
+{
+position:absolute;
+left: 50%;
+
+}
 footer
 {
     height: 270px;
