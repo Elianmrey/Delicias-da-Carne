@@ -284,17 +284,20 @@ div.infoEmpresa
     flex-direction: column;
     text-align: justify;
     line-height: 35px;
+    padding: 20px;
+    /* box-shadow: 5px 5px 10px 3px black; */
 }
 h2.paragraph-titles
 {
     margin-top: 150px;
 }
 
-img#we-are
+img#weare
 {
 position:absolute;
-left: 50%;
-
+left: 55%;
+width: 30%;
+box-shadow: inset 20px 20px 100px 50px black;
 }
 footer
 {
