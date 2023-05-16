@@ -109,6 +109,11 @@ ul#menu li:hover
         text-align: center;
     }
 
+#banner
+{
+    width: 100%;
+}
+
 div#painel
 {
     
@@ -130,7 +135,12 @@ div#painel
 
     
 }
-
+iframe#maps-iframe
+{
+    width: 500px;
+    height: 300px;
+border-radius: 20px;
+}
 
 .card
 {
@@ -195,14 +205,14 @@ svg#btn-previous:hover
 button#next
 {
     position: absolute;
-    top: 150%;
+    top: 310%;
     right: 6%;
 }
 
 button#previous
 {
     position: absolute;
-    top: 150%;
+    top: 310%;
     left: 6%;
 }
 svg#btn-next2
@@ -229,14 +239,14 @@ svg#btn-previous2:hover
 button#next2
 {
     position: absolute;
-    top: 230%;
+    top: 395%;
     right: 6%;
 }
 
 button#previous2
 {
     position: absolute;
-    top: 230%;
+    top: 395%;
     left: 6%;
 }
 button.slide-buttons
