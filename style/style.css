@@ -103,7 +103,11 @@ ul#menu li:hover
         display: flex;
         scroll-behavior: smooth;
     }
-
+    .header2text
+    {
+        color: #FFF;
+        text-align: center;
+    }
 
 div#painel
 {
@@ -188,6 +192,53 @@ svg#btn-previous:hover
 {
     width: 40px;
 }
+button#next
+{
+    position: absolute;
+    top: 150%;
+    right: 6%;
+}
+
+button#previous
+{
+    position: absolute;
+    top: 150%;
+    left: 6%;
+}
+svg#btn-next2
+{
+    fill: #000;
+}
+svg#btn-next2:hover
+{
+    fill: #ffffff;
+}
+svg#btn-previous2
+{
+    fill: #000;
+}
+svg#btn-previous2:hover
+{
+    fill: #ffffff;
+}
+
+#next-image-button2
+{
+    width: 40px;
+}
+button#next2
+{
+    position: absolute;
+    top: 230%;
+    right: 6%;
+}
+
+button#previous2
+{
+    position: absolute;
+    top: 230%;
+    left: 6%;
+}
 button.slide-buttons
 {
      width: 50px;
@@ -196,19 +247,7 @@ button.slide-buttons
     color: white;
     border-radius: 20px;
 }
-button#next
-{
-    position: absolute;
-    top: 130%;
-    right: 6%;
-}
 
-button#previous
-{
-    position: absolute;
-    top: 130%;
-    left: 6%;
-}
 div.infoCarnes
 {
 color: white;
@@ -220,7 +259,6 @@ display: flex;
 flex-direction: column;
 text-align: justify;
 }
-
 
 footer
 {
