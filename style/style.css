@@ -17,8 +17,8 @@ body
 }
 
 
-@media screen and (max-width: 1366px)
-{
+/* @media screen and (max-width: 1366px)
+{ */
 /*===========================Header================================== */
 div#header-div
 { 
@@ -202,19 +202,20 @@ svg#btn-previous:hover
 {
     width: 40px;
 }
-button#next
-{
-    position: absolute;
-    top: 310%;
-    right: 6%;
-}
-
 button#previous
 {
     position: absolute;
-    top: 310%;
+    top: 280%;
     left: 6%;
 }
+
+button#next
+{
+    position: absolute;
+    top: 280%;
+    right: 6%;
+}
+
 svg#btn-next2
 {
     fill: #000;
@@ -236,19 +237,21 @@ svg#btn-previous2:hover
 {
     width: 40px;
 }
-button#next2
-{
-    position: absolute;
-    top: 395%;
-    right: 6%;
-}
 
 button#previous2
 {
     position: absolute;
-    top: 395%;
+    top: 360%;
     left: 6%;
 }
+
+button#next2
+{
+    position: absolute;
+    top: 360%;
+    right: 6%;
+}
+
 button.slide-buttons
 {
      width: 50px;
@@ -312,4 +315,4 @@ div#footer-div
 }
 
 
-}
+/* } */
